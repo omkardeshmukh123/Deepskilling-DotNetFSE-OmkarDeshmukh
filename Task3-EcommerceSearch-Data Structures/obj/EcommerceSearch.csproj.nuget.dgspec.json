@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task2-FactoryMethodPatternExample\\FactoryMethodPatternExample.csproj": {}
+    "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task3-EcommerceSearch-Data Structures\\EcommerceSearch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task2-FactoryMethodPatternExample\\FactoryMethodPatternExample.csproj": {
+    "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task3-EcommerceSearch-Data Structures\\EcommerceSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task2-FactoryMethodPatternExample\\FactoryMethodPatternExample.csproj",
-        "projectName": "FactoryMethodPatternExample",
-        "projectPath": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task2-FactoryMethodPatternExample\\FactoryMethodPatternExample.csproj",
+        "projectUniqueName": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task3-EcommerceSearch-Data Structures\\EcommerceSearch.csproj",
+        "projectName": "EcommerceSearch",
+        "projectPath": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task3-EcommerceSearch-Data Structures\\EcommerceSearch.csproj",
         "packagesPath": "C:\\Users\\D A T A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task2-FactoryMethodPatternExample\\obj\\",
+        "outputPath": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task3-EcommerceSearch-Data Structures\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\D A T A\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Exercise7_FinancialForecasting\\Exercise7_FinancialForecasting.csproj": {}
+    "c:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task4-FinancialForcast-DataStructures\\Exercise7_FinancialForecasting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Exercise7_FinancialForecasting\\Exercise7_FinancialForecasting.csproj": {
+    "c:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task4-FinancialForcast-DataStructures\\Exercise7_FinancialForecasting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Exercise7_FinancialForecasting\\Exercise7_FinancialForecasting.csproj",
+        "projectUniqueName": "c:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task4-FinancialForcast-DataStructures\\Exercise7_FinancialForecasting.csproj",
         "projectName": "Exercise7_FinancialForecasting",
-        "projectPath": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Exercise7_FinancialForecasting\\Exercise7_FinancialForecasting.csproj",
+        "projectPath": "c:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task4-FinancialForcast-DataStructures\\Exercise7_FinancialForecasting.csproj",
         "packagesPath": "C:\\Users\\D A T A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Exercise7_FinancialForecasting\\obj\\",
+        "outputPath": "c:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task4-FinancialForcast-DataStructures\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\D A T A\\AppData\\Roaming\\NuGet\\NuGet.Config"
