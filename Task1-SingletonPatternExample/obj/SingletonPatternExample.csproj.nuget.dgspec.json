@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task1-SingletonPatternExample\\SingletonPatternExample.csproj": {}
+    "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task1-SingletonPatternExample\\SingletonPatternExample.csproj": {}
   },
   "projects": {
-    "c:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task1-SingletonPatternExample\\SingletonPatternExample.csproj": {
+    "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task1-SingletonPatternExample\\SingletonPatternExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task1-SingletonPatternExample\\SingletonPatternExample.csproj",
+        "projectUniqueName": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task1-SingletonPatternExample\\SingletonPatternExample.csproj",
         "projectName": "SingletonPatternExample",
-        "projectPath": "c:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task1-SingletonPatternExample\\SingletonPatternExample.csproj",
+        "projectPath": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task1-SingletonPatternExample\\SingletonPatternExample.csproj",
         "packagesPath": "C:\\Users\\D A T A\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task1-SingletonPatternExample\\obj\\",
+        "outputPath": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Task1-SingletonPatternExample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\D A T A\\AppData\\Roaming\\NuGet\\NuGet.Config"
