@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MagicFilesLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edc0079b0b7fd8efc3cd5f228ad22365dfd0ba58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2172816bf2b683e7bc1bd9f87e8c937f0dcd63bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("MagicFilesLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MagicFilesLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

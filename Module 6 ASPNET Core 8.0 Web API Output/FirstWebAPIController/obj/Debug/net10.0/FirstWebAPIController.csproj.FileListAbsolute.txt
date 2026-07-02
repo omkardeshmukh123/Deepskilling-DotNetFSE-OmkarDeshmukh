@@ -35,3 +35,7 @@ C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API
 C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\System.Net.Http.Formatting.dll
+C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.WebApiCompatShim.dll
+C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll
