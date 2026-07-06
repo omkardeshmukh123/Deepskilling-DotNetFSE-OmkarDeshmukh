@@ -1,0 +1,1 @@
+7/3/2026 10:17:07 PM : IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '144' bits. (Parameter 'keyBytes')

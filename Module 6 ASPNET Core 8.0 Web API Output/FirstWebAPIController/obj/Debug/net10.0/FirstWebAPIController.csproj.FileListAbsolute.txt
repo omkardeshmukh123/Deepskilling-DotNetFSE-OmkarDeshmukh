@@ -39,3 +39,11 @@ C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API
 C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.WebApiCompatShim.dll
 C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Newtonsoft.Json.dll
 C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll
+C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\D A T A\Desktop\Cognizant\DEEPSKILLING\Module 6 ASPNET Core 8.0 Web API Output\FirstWebAPIController\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll

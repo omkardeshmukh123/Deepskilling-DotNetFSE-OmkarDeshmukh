@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "c2mGjY1SVls=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\D A T A\\Desktop\\Cognizant\\DEEPSKILLING\\Module 6 ASPNET Core 8.0 Web API Output\\KafkaDemo\\KafkaDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\D A T A\\.nuget\\packages\\confluent.kafka\\2.15.0\\confluent.kafka.2.15.0.nupkg.sha512",
+    "C:\\Users\\D A T A\\.nuget\\packages\\librdkafka.redist\\2.15.0\\librdkafka.redist.2.15.0.nupkg.sha512"
+  ],
+  "logs": []
+}
