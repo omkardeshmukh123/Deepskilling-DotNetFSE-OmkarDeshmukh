@@ -1,49 +1,64 @@
-using Microsoft.AspNetCore.Authorization;
+using JwtDemo.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Microsoft.IdentityModel.Tokens;
-namespace FirstWebAPIController.Controllers;
 
-[ApiController]
-[Route("api/[controller]")]
-[AllowAnonymous]
-public class AuthController : ControllerBase
+namespace JwtDemo.Controllers
 {
-    private string GenerateJSONWebToken(int userId, string userRole)
-   {
-    var securityKey =
-        new SymmetricSecurityKey(
-            Encoding.UTF8.GetBytes("ThisIsMySuperSecretJWTKey12345678"));
-
-    var credentials =
-        new SigningCredentials(
-            securityKey,
-            SecurityAlgorithms.HmacSha256);
-
-    var claims = new List<Claim>
+    [ApiController]
+    [Route("api/[controller]")]
+    public class AuthController : ControllerBase
     {
-        new Claim(ClaimTypes.Role, userRole),
-        new Claim("UserId", userId.ToString())
-    };
+        private readonly IConfiguration _configuration;
 
-    var token = new JwtSecurityToken(
-        issuer: "mySystem",
-        audience: "myUsers",
-        claims: claims,
-        expires: DateTime.Now.AddMinutes(10),
-        signingCredentials: credentials);
+        public AuthController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
 
-    return new JwtSecurityTokenHandler().WriteToken(token);
-   }
+        [HttpPost("login")]
+        public IActionResult Login(LoginModel model)
+        {
+            if (model.Username == "admin" &&
+                model.Password == "admin123")
+            {
+                var token = GenerateJwtToken(model.Username);
 
+                return Ok(new
+                {
+                    Token = token
+                });
+            }
 
-   [HttpGet]
-   public IActionResult GetToken()
-   {
-    string token = GenerateJSONWebToken(1, "Admin");
+            return Unauthorized("Invalid Username or Password");
+        }
 
-    return Ok(token);
-   }
+        private string GenerateJwtToken(string username)
+        {
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.Name, username)
+            };
+
+            var key = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
+
+            var credentials = new SigningCredentials(
+                key,
+                SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["Jwt:Issuer"],
+                audience: _configuration["Jwt:Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(
+                    Convert.ToDouble(_configuration["Jwt:DurationInMinutes"])),
+                signingCredentials: credentials);
+
+            return new JwtSecurityTokenHandler()
+                .WriteToken(token);
+        }
+    }
 }
