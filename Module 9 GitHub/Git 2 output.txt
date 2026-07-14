@@ -1,0 +1,17 @@
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ touch app.log
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ echo "This is a log file" > app.log
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ mkdir logs
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ echo "Error log" > logs/error.log
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ touch .gitignore
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ notepad .gitignore

@@ -1,0 +1,318 @@
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ git --version
+git version 2.52.0.windows.1
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ ls -la
+total 3184
+drwxr-xr-x 1 D A T A 197121      0 Jul 14 13:58  ./
+drwxr-xr-x 1 D A T A 197121      0 Jul 14 13:58  ../
+drwxr-xr-x 1 D A T A 197121      0 Jul 13 22:54  blogapp/
+drwxr-xr-x 1 D A T A 197121      0 Jul 14 13:53  bloggerapp/
+drwxr-xr-x 1 D A T A 197121      0 Jul 14 09:59  cohorttracker/
+drwxr-xr-x 1 D A T A 197121      0 Jul 14 09:58  cricketapp/
+drwxr-xr-x 1 D A T A 197121      0 Jul 14 12:02  eventexamplesapp/
+drwxr-xr-x 1 D A T A 197121      0 Jul 13 21:19  myfirstreact/
+drwxr-xr-x 1 D A T A 197121      0 Jul 14 11:39  officespacerentalapp/
+-rw-r--r-- 1 D A T A 197121 235074 Jul 14 09:45 'React 5 HOI Output.png'
+-rw-r--r-- 1 D A T A 197121 235213 Jul 13 22:01 'React HOI 2 Output.png'
+-rw-r--r-- 1 D A T A 197121 212085 Jul 14 12:14 'React HOI Output 11.png'
+-rw-r--r-- 1 D A T A 197121 174463 Jul 13 21:23 'React outout HOI1.png'
+-rw-r--r-- 1 D A T A 197121 669115 Jul 14 11:46 'React Output HOI 10.png'
+-rw-r--r-- 1 D A T A 197121 205052 Jul 14 12:27 'React Output HOI 12 (1).png'
+-rw-r--r-- 1 D A T A 197121 204657 Jul 14 12:27 'React Output HOI 12 (2).png'
+-rw-r--r-- 1 D A T A 197121 235397 Jul 14 13:57 'React Output HOI 13.png'
+-rw-r--r-- 1 D A T A 197121 236034 Jul 13 22:36 'REACT Output HOI 3.png'
+-rw-r--r-- 1 D A T A 197121 297623 Jul 13 23:34 'REACT Output HOI 4.png'
+-rw-r--r-- 1 D A T A 197121 239916 Jul 14 10:15 'REACT Output HOI 9 (1).png'
+-rw-r--r-- 1 D A T A 197121 240526 Jul 14 10:05 'REACT Output HOI 9 (2).png'
+drwxr-xr-x 1 D A T A 197121      0 Jul 13 22:21  scorecalculatorapp/
+drwxr-xr-x 1 D A T A 197121      0 Jul 13 22:01  studentapp/
+drwxr-xr-x 1 D A T A 197121      0 Jul 14 12:22  ticketbookingapp/
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../Module 1 Design Patterns Complete/Task1-SingletonPatternExample/obj/Debug/net10.0/SingletonPatternExample.AssemblyInfo.cs
+        modified:   ../Module 1 Design Patterns Complete/Task1-SingletonPatternExample/obj/Debug/net10.0/SingletonPatternExample.AssemblyInfoInputs.cache
+        modified:   ../Module 1 Design Patterns Complete/Task2-FactoryMethodPatternExample/obj/Debug/net10.0/FactoryMethodPatternExample.AssemblyInfo.cs
+        modified:   ../Module 1 Design Patterns Complete/Task2-FactoryMethodPatternExample/obj/Debug/net10.0/FactoryMethodPatternExample.AssemblyInfoInputs.cache
+        modified:   ../Module 2 Data Structures and Algorithms Complete/Task3-EcommerceSearch-Data Structures/obj/Debug/net10.0/EcommerceSearch.AssemblyInfo.cs
+        modified:   ../Module 2 Data Structures and Algorithms Complete/Task3-EcommerceSearch-Data Structures/obj/Debug/net10.0/EcommerceSearch.AssemblyInfoInputs.cache
+        modified:   ../Module 2 Data Structures and Algorithms Complete/Task4-FinancialForcast-DataStructures/obj/Debug/net10.0/Exercise7_FinancialForecasting.AssemblyInfo.cs
+        modified:   ../Module 2 Data Structures and Algorithms Complete/Task4-FinancialForcast-DataStructures/obj/Debug/net10.0/Exercise7_FinancialForecasting.AssemblyInfoInputs.cache
+        modified:   ../Module 4 NUnit and Moq Complete/CustomerCommSolution/CustomerComm.Tests/obj/Debug/net10.0/CustomerComm.Tests.AssemblyInfo.cs
+        modified:   ../Module 4 NUnit and Moq Complete/CustomerCommSolution/CustomerComm.Tests/obj/Debug/net10.0/CustomerComm.Tests.AssemblyInfoInputs.cache
+        modified:   ../Module 4 NUnit and Moq Complete/CustomerCommSolution/CustomerCommLib/obj/Debug/net10.0/CustomerCommLib.AssemblyInfo.cs
+        modified:   ../Module 4 NUnit and Moq Complete/CustomerCommSolution/CustomerCommLib/obj/Debug/net10.0/CustomerCommLib.AssemblyInfoInputs.cache
+        modified:   ../Module 4 NUnit and Moq Complete/CustomerCommSolution/DirectoryExplorer.Tests/obj/Debug/net10.0/DirectoryExplorer.Tests.AssemblyInfo.cs
+        modified:   ../Module 4 NUnit and Moq Complete/CustomerCommSolution/DirectoryExplorer.Tests/obj/Debug/net10.0/DirectoryExplorer.Tests.AssemblyInfoInputs.cache
+        modified:   ../Module 4 NUnit and Moq Complete/CustomerCommSolution/MagicFilesLib/obj/Debug/net10.0/MagicFilesLib.AssemblyInfo.cs
+        modified:   ../Module 4 NUnit and Moq Complete/CustomerCommSolution/MagicFilesLib/obj/Debug/net10.0/MagicFilesLib.AssemblyInfoInputs.cache
+        modified:   ../Module 4 NUnit and Moq Complete/CustomerCommSolution/PlayerManager.Tests/obj/Debug/net10.0/PlayerManager.Tests.AssemblyInfo.cs
+        modified:   ../Module 4 NUnit and Moq Complete/CustomerCommSolution/PlayerManager.Tests/obj/Debug/net10.0/PlayerManager.Tests.AssemblyInfoInputs.cache
+        modified:   ../Module 4 NUnit and Moq Complete/CustomerCommSolution/PlayersManagerLib/obj/Debug/net10.0/PlayersManagerLib.AssemblyInfo.cs
+        modified:   ../Module 4 NUnit and Moq Complete/CustomerCommSolution/PlayersManagerLib/obj/Debug/net10.0/PlayersManagerLib.AssemblyInfoInputs.cache
+        modified:   ../Module 5 Entity Framework Core 8.0 Complete/RetailInventory/obj/Debug/net10.0/RetailInventory.AssemblyInfo.cs
+        modified:   ../Module 5 Entity Framework Core 8.0 Complete/RetailInventory/obj/Debug/net10.0/RetailInventory.AssemblyInfoInputs.cache
+        modified:   ../Module 6 ASPNET Core 8.0 Web API Output/FirstWebAPIController/obj/Debug/net10.0/FirstWebAPIController.AssemblyInfo.cs
+        modified:   ../Module 6 ASPNET Core 8.0 Web API Output/FirstWebAPIController/obj/Debug/net10.0/FirstWebAPIController.AssemblyInfoInputs.cache
+        modified:   ../Module 6 ASPNET Core 8.0 Web API Output/KafkaDemo/obj/Debug/net10.0/KafkaDemo.AssemblyInfo.cs
+        modified:   ../Module 6 ASPNET Core 8.0 Web API Output/KafkaDemo/obj/Debug/net10.0/KafkaDemo.AssemblyInfoInputs.cache
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ git add .
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ git commit -m "completed react"
+[main 026cc05] completed react
+ 213 files changed, 178368 insertions(+)
+ create mode 100644 Module 8 React JS/REACT Output HOI 3.png
+ create mode 100644 Module 8 React JS/REACT Output HOI 4.png
+ create mode 100644 Module 8 React JS/REACT Output HOI 9 (1).png
+ create mode 100644 Module 8 React JS/REACT Output HOI 9 (2).png
+ create mode 100644 Module 8 React JS/React 5 HOI Output.png
+ create mode 100644 Module 8 React JS/React HOI 2 Output.png
+ create mode 100644 Module 8 React JS/React HOI Output 11.png
+ create mode 100644 Module 8 React JS/React Output HOI 10.png
+ create mode 100644 Module 8 React JS/React Output HOI 12 (1).png
+ create mode 100644 Module 8 React JS/React Output HOI 12 (2).png
+ create mode 100644 Module 8 React JS/React Output HOI 13.png
+ create mode 100644 Module 8 React JS/React outout HOI1.png
+ create mode 100644 Module 8 React JS/blogapp/.gitignore
+ create mode 100644 Module 8 React JS/blogapp/README.md
+ create mode 100644 Module 8 React JS/blogapp/package-lock.json
+ create mode 100644 Module 8 React JS/blogapp/package.json
+ create mode 100644 Module 8 React JS/blogapp/public/favicon.ico
+ create mode 100644 Module 8 React JS/blogapp/public/index.html
+ create mode 100644 Module 8 React JS/blogapp/public/logo192.png
+ create mode 100644 Module 8 React JS/blogapp/public/logo512.png
+ create mode 100644 Module 8 React JS/blogapp/public/manifest.json
+ create mode 100644 Module 8 React JS/blogapp/public/robots.txt
+ create mode 100644 Module 8 React JS/blogapp/src/App.css
+ create mode 100644 Module 8 React JS/blogapp/src/App.js
+ create mode 100644 Module 8 React JS/blogapp/src/App.test.js
+ create mode 100644 Module 8 React JS/blogapp/src/Post.js
+ create mode 100644 Module 8 React JS/blogapp/src/Posts.js
+ create mode 100644 Module 8 React JS/blogapp/src/index.css
+ create mode 100644 Module 8 React JS/blogapp/src/index.js
+ create mode 100644 Module 8 React JS/blogapp/src/logo.svg
+ create mode 100644 Module 8 React JS/blogapp/src/reportWebVitals.js
+ create mode 100644 Module 8 React JS/blogapp/src/setupTests.js
+ create mode 100644 Module 8 React JS/bloggerapp/.gitignore
+ create mode 100644 Module 8 React JS/bloggerapp/README.md
+ create mode 100644 Module 8 React JS/bloggerapp/package-lock.json
+ create mode 100644 Module 8 React JS/bloggerapp/package.json
+ create mode 100644 Module 8 React JS/bloggerapp/public/favicon.ico
+ create mode 100644 Module 8 React JS/bloggerapp/public/index.html
+ create mode 100644 Module 8 React JS/bloggerapp/public/logo192.png
+ create mode 100644 Module 8 React JS/bloggerapp/public/logo512.png
+ create mode 100644 Module 8 React JS/bloggerapp/public/manifest.json
+ create mode 100644 Module 8 React JS/bloggerapp/public/robots.txt
+ create mode 100644 Module 8 React JS/bloggerapp/src/App.css
+ create mode 100644 Module 8 React JS/bloggerapp/src/App.js
+ create mode 100644 Module 8 React JS/bloggerapp/src/App.test.js
+ create mode 100644 Module 8 React JS/bloggerapp/src/Components/BlogDetails.js
+ create mode 100644 Module 8 React JS/bloggerapp/src/Components/BookDetails.js
+ create mode 100644 Module 8 React JS/bloggerapp/src/Components/CourseDetails.js
+ create mode 100644 Module 8 React JS/bloggerapp/src/index.css
+ create mode 100644 Module 8 React JS/bloggerapp/src/index.js
+ create mode 100644 Module 8 React JS/bloggerapp/src/logo.svg
+ create mode 100644 Module 8 React JS/bloggerapp/src/reportWebVitals.js
+ create mode 100644 Module 8 React JS/bloggerapp/src/setupTests.js
+ create mode 100644 Module 8 React JS/cohorttracker/.gitignore
+ create mode 100644 Module 8 React JS/cohorttracker/README.md
+ create mode 100644 Module 8 React JS/cohorttracker/package-lock.json
+ create mode 100644 Module 8 React JS/cohorttracker/package.json
+ create mode 100644 Module 8 React JS/cohorttracker/public/favicon.ico
+ create mode 100644 Module 8 React JS/cohorttracker/public/index.html
+ create mode 100644 Module 8 React JS/cohorttracker/public/logo192.png
+ create mode 100644 Module 8 React JS/cohorttracker/public/logo512.png
+ create mode 100644 Module 8 React JS/cohorttracker/public/manifest.json
+ create mode 100644 Module 8 React JS/cohorttracker/public/robots.txt
+ create mode 100644 Module 8 React JS/cohorttracker/src/App.css
+ create mode 100644 Module 8 React JS/cohorttracker/src/App.js
+ create mode 100644 Module 8 React JS/cohorttracker/src/App.test.js
+ create mode 100644 Module 8 React JS/cohorttracker/src/Components/CohortDetails.js
+ create mode 100644 Module 8 React JS/cohorttracker/src/Components/CohortDetails.module.css
+ create mode 100644 Module 8 React JS/cohorttracker/src/index.css
+ create mode 100644 Module 8 React JS/cohorttracker/src/index.js
+ create mode 100644 Module 8 React JS/cohorttracker/src/logo.svg
+ create mode 100644 Module 8 React JS/cohorttracker/src/reportWebVitals.js
+ create mode 100644 Module 8 React JS/cohorttracker/src/setupTests.js
+ create mode 100644 Module 8 React JS/cricketapp/.gitignore
+ create mode 100644 Module 8 React JS/cricketapp/README.md
+ create mode 100644 Module 8 React JS/cricketapp/package-lock.json
+ create mode 100644 Module 8 React JS/cricketapp/package.json
+ create mode 100644 Module 8 React JS/cricketapp/public/favicon.ico
+ create mode 100644 Module 8 React JS/cricketapp/public/index.html
+ create mode 100644 Module 8 React JS/cricketapp/public/logo192.png
+ create mode 100644 Module 8 React JS/cricketapp/public/logo512.png
+ create mode 100644 Module 8 React JS/cricketapp/public/manifest.json
+ create mode 100644 Module 8 React JS/cricketapp/public/robots.txt
+ create mode 100644 Module 8 React JS/cricketapp/src/App.css
+ create mode 100644 Module 8 React JS/cricketapp/src/App.js
+ create mode 100644 Module 8 React JS/cricketapp/src/App.test.js
+ create mode 100644 Module 8 React JS/cricketapp/src/Components/IndianPlayers.js
+ create mode 100644 Module 8 React JS/cricketapp/src/Components/ListOfPlayers.js
+ create mode 100644 Module 8 React JS/cricketapp/src/Components/ScoreBelow70.js
+ create mode 100644 Module 8 React JS/cricketapp/src/index.css
+ create mode 100644 Module 8 React JS/cricketapp/src/index.js
+ create mode 100644 Module 8 React JS/cricketapp/src/logo.svg
+ create mode 100644 Module 8 React JS/cricketapp/src/reportWebVitals.js
+ create mode 100644 Module 8 React JS/cricketapp/src/setupTests.js
+ create mode 100644 Module 8 React JS/eventexamplesapp/.gitignore
+ create mode 100644 Module 8 React JS/eventexamplesapp/README.md
+ create mode 100644 Module 8 React JS/eventexamplesapp/package-lock.json
+ create mode 100644 Module 8 React JS/eventexamplesapp/package.json
+ create mode 100644 Module 8 React JS/eventexamplesapp/public/favicon.ico
+ create mode 100644 Module 8 React JS/eventexamplesapp/public/index.html
+ create mode 100644 Module 8 React JS/eventexamplesapp/public/logo192.png
+ create mode 100644 Module 8 React JS/eventexamplesapp/public/logo512.png
+ create mode 100644 Module 8 React JS/eventexamplesapp/public/manifest.json
+ create mode 100644 Module 8 React JS/eventexamplesapp/public/robots.txt
+ create mode 100644 Module 8 React JS/eventexamplesapp/src/App.css
+ create mode 100644 Module 8 React JS/eventexamplesapp/src/App.js
+ create mode 100644 Module 8 React JS/eventexamplesapp/src/App.test.js
+ create mode 100644 Module 8 React JS/eventexamplesapp/src/Components/CurrencyConvertor.js
+ create mode 100644 Module 8 React JS/eventexamplesapp/src/index.css
+ create mode 100644 Module 8 React JS/eventexamplesapp/src/index.js
+ create mode 100644 Module 8 React JS/eventexamplesapp/src/logo.svg
+ create mode 100644 Module 8 React JS/eventexamplesapp/src/reportWebVitals.js
+ create mode 100644 Module 8 React JS/eventexamplesapp/src/setupTests.js
+ create mode 100644 Module 8 React JS/myfirstreact/.gitignore
+ create mode 100644 Module 8 React JS/myfirstreact/README.md
+ create mode 100644 Module 8 React JS/myfirstreact/package-lock.json
+ create mode 100644 Module 8 React JS/myfirstreact/package.json
+ create mode 100644 Module 8 React JS/myfirstreact/public/favicon.ico
+ create mode 100644 Module 8 React JS/myfirstreact/public/index.html
+ create mode 100644 Module 8 React JS/myfirstreact/public/logo192.png
+ create mode 100644 Module 8 React JS/myfirstreact/public/logo512.png
+ create mode 100644 Module 8 React JS/myfirstreact/public/manifest.json
+ create mode 100644 Module 8 React JS/myfirstreact/public/robots.txt
+ create mode 100644 Module 8 React JS/myfirstreact/src/App.css
+ create mode 100644 Module 8 React JS/myfirstreact/src/App.js
+ create mode 100644 Module 8 React JS/myfirstreact/src/App.test.js
+ create mode 100644 Module 8 React JS/myfirstreact/src/index.css
+ create mode 100644 Module 8 React JS/myfirstreact/src/index.js
+ create mode 100644 Module 8 React JS/myfirstreact/src/logo.svg
+ create mode 100644 Module 8 React JS/myfirstreact/src/reportWebVitals.js
+ create mode 100644 Module 8 React JS/myfirstreact/src/setupTests.js
+ create mode 100644 Module 8 React JS/officespacerentalapp/.gitignore
+ create mode 100644 Module 8 React JS/officespacerentalapp/README.md
+ create mode 100644 Module 8 React JS/officespacerentalapp/package-lock.json
+ create mode 100644 Module 8 React JS/officespacerentalapp/package.json
+ create mode 100644 Module 8 React JS/officespacerentalapp/public/favicon.ico
+ create mode 100644 Module 8 React JS/officespacerentalapp/public/index.html
+ create mode 100644 Module 8 React JS/officespacerentalapp/public/logo192.png
+ create mode 100644 Module 8 React JS/officespacerentalapp/public/logo512.png
+ create mode 100644 Module 8 React JS/officespacerentalapp/public/manifest.json
+ create mode 100644 Module 8 React JS/officespacerentalapp/public/robots.txt
+ create mode 100644 Module 8 React JS/officespacerentalapp/src/App.css
+ create mode 100644 Module 8 React JS/officespacerentalapp/src/App.js
+ create mode 100644 Module 8 React JS/officespacerentalapp/src/App.test.js
+ create mode 100644 Module 8 React JS/officespacerentalapp/src/index.css
+ create mode 100644 Module 8 React JS/officespacerentalapp/src/index.js
+ create mode 100644 Module 8 React JS/officespacerentalapp/src/logo.svg
+ create mode 100644 Module 8 React JS/officespacerentalapp/src/office.jpg
+ create mode 100644 Module 8 React JS/officespacerentalapp/src/reportWebVitals.js
+ create mode 100644 Module 8 React JS/officespacerentalapp/src/setupTests.js
+ create mode 100644 Module 8 React JS/scorecalculatorapp/.gitignore
+ create mode 100644 Module 8 React JS/scorecalculatorapp/README.md
+ create mode 100644 Module 8 React JS/scorecalculatorapp/package-lock.json
+ create mode 100644 Module 8 React JS/scorecalculatorapp/package.json
+ create mode 100644 Module 8 React JS/scorecalculatorapp/public/favicon.ico
+ create mode 100644 Module 8 React JS/scorecalculatorapp/public/index.html
+ create mode 100644 Module 8 React JS/scorecalculatorapp/public/logo192.png
+ create mode 100644 Module 8 React JS/scorecalculatorapp/public/logo512.png
+ create mode 100644 Module 8 React JS/scorecalculatorapp/public/manifest.json
+ create mode 100644 Module 8 React JS/scorecalculatorapp/public/robots.txt
+ create mode 100644 Module 8 React JS/scorecalculatorapp/src/App.css
+ create mode 100644 Module 8 React JS/scorecalculatorapp/src/App.js
+ create mode 100644 Module 8 React JS/scorecalculatorapp/src/App.test.js
+ create mode 100644 Module 8 React JS/scorecalculatorapp/src/Components/CalculateScore.js
+ create mode 100644 Module 8 React JS/scorecalculatorapp/src/Stylesheets/mystyle.css
+ create mode 100644 Module 8 React JS/scorecalculatorapp/src/index.css
+ create mode 100644 Module 8 React JS/scorecalculatorapp/src/index.js
+ create mode 100644 Module 8 React JS/scorecalculatorapp/src/logo.svg
+ create mode 100644 Module 8 React JS/scorecalculatorapp/src/reportWebVitals.js
+ create mode 100644 Module 8 React JS/scorecalculatorapp/src/setupTests.js
+ create mode 100644 Module 8 React JS/studentapp/.gitignore
+ create mode 100644 Module 8 React JS/studentapp/README.md
+ create mode 100644 Module 8 React JS/studentapp/package-lock.json
+ create mode 100644 Module 8 React JS/studentapp/package.json
+ create mode 100644 Module 8 React JS/studentapp/public/favicon.ico
+ create mode 100644 Module 8 React JS/studentapp/public/index.html
+ create mode 100644 Module 8 React JS/studentapp/public/logo192.png
+ create mode 100644 Module 8 React JS/studentapp/public/logo512.png
+ create mode 100644 Module 8 React JS/studentapp/public/manifest.json
+ create mode 100644 Module 8 React JS/studentapp/public/robots.txt
+ create mode 100644 Module 8 React JS/studentapp/src/App.css
+ create mode 100644 Module 8 React JS/studentapp/src/App.js
+ create mode 100644 Module 8 React JS/studentapp/src/App.test.js
+ create mode 100644 Module 8 React JS/studentapp/src/Components/About.js
+ create mode 100644 Module 8 React JS/studentapp/src/Components/Contact.js
+ create mode 100644 Module 8 React JS/studentapp/src/Components/Home.js
+ create mode 100644 Module 8 React JS/studentapp/src/index.css
+ create mode 100644 Module 8 React JS/studentapp/src/index.js
+ create mode 100644 Module 8 React JS/studentapp/src/logo.svg
+ create mode 100644 Module 8 React JS/studentapp/src/reportWebVitals.js
+ create mode 100644 Module 8 React JS/studentapp/src/setupTests.js
+ create mode 100644 Module 8 React JS/ticketbookingapp/.gitignore
+ create mode 100644 Module 8 React JS/ticketbookingapp/README.md
+ create mode 100644 Module 8 React JS/ticketbookingapp/package-lock.json
+ create mode 100644 Module 8 React JS/ticketbookingapp/package.json
+ create mode 100644 Module 8 React JS/ticketbookingapp/public/favicon.ico
+ create mode 100644 Module 8 React JS/ticketbookingapp/public/index.html
+ create mode 100644 Module 8 React JS/ticketbookingapp/public/logo192.png
+ create mode 100644 Module 8 React JS/ticketbookingapp/public/logo512.png
+ create mode 100644 Module 8 React JS/ticketbookingapp/public/manifest.json
+ create mode 100644 Module 8 React JS/ticketbookingapp/public/robots.txt
+ create mode 100644 Module 8 React JS/ticketbookingapp/src/App.css
+ create mode 100644 Module 8 React JS/ticketbookingapp/src/App.js
+ create mode 100644 Module 8 React JS/ticketbookingapp/src/App.test.js
+ create mode 100644 Module 8 React JS/ticketbookingapp/src/Components/Guest.js
+ create mode 100644 Module 8 React JS/ticketbookingapp/src/Components/LoginButton.js
+ create mode 100644 Module 8 React JS/ticketbookingapp/src/Components/LogoutButton.js
+ create mode 100644 Module 8 React JS/ticketbookingapp/src/Components/User.js
+ create mode 100644 Module 8 React JS/ticketbookingapp/src/index.css
+ create mode 100644 Module 8 React JS/ticketbookingapp/src/index.js
+ create mode 100644 Module 8 React JS/ticketbookingapp/src/logo.svg
+ create mode 100644 Module 8 React JS/ticketbookingapp/src/reportWebVitals.js
+ create mode 100644 Module 8 React JS/ticketbookingapp/src/setupTests.js
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ git push
+Enumerating objects: 111, done.
+Counting objects: 100% (111/111), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (107/107), done.
+Writing objects: 100% (110/110), 3.25 MiB | 278.00 KiB/s, done.
+Total 110 (delta 39), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (39/39), completed with 1 local object.
+To https://github.com/omkardeshmukh123/Deepskilling-DotNetFSE-OmkarDeshmukh.git
+   cf208f4..026cc05  main -> main
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
+$ 
+
+
+
+
+
+
+
+
+
+
