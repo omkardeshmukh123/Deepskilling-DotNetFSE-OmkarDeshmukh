@@ -15,3 +15,30 @@ $ touch .gitignore
 
 D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING/Module 8 React JS (main)
 $ notepad .gitignore
+
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING (main)
+$ git add .
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING (main)
+$ git commit -m"git exercise"
+[main d6632da] git exercise
+ 29 files changed, 363 insertions(+), 26 deletions(-)
+ create mode 100644 Module 8 React JS/.gitignore
+ create mode 100644 Module 9 GitHub/Git 1 output.txt
+ create mode 100644 Module 9 GitHub/Git 2 output.txt
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING (main)
+$ git push
+Enumerating objects: 134, done.
+Counting objects: 100% (134/134), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (75/75), done.
+Writing objects: 100% (91/91), 14.80 KiB | 721.00 KiB/s, done.
+Total 91 (delta 41), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (41/41), completed with 28 local objects.
+To https://github.com/omkardeshmukh123/Deepskilling-DotNetFSE-OmkarDeshmukh.git
+   026cc05..d6632da  main -> main
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING (main)
+$ 
