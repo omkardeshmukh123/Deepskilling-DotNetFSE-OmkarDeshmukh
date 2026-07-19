@@ -1,0 +1,154 @@
+<h2>Student Enrollment Form</h2>
+
+<form
+#enrollForm="ngForm"
+(ngSubmit)="onSubmit(enrollForm)">
+
+<div>
+
+<label>Student Name</label><br>
+
+<input
+type="text"
+name="studentName"
+required
+minlength="3"
+ngModel
+#nameCtrl="ngModel">
+
+<div
+class="error"
+*ngIf="nameCtrl.touched && nameCtrl.errors?.['required']">
+
+Name is required
+
+</div>
+
+<div
+class="error"
+*ngIf="nameCtrl.touched && nameCtrl.errors?.['minlength']">
+
+Name must be at least 3 characters
+
+</div>
+
+</div>
+
+<br>
+
+<div>
+
+<label>Email</label><br>
+
+<input
+type="email"
+name="studentEmail"
+required
+email
+ngModel
+#emailCtrl="ngModel">
+
+<div
+class="error"
+*ngIf="emailCtrl.touched && emailCtrl.errors?.['required']">
+
+Email is required
+
+</div>
+
+<div
+class="error"
+*ngIf="emailCtrl.touched && emailCtrl.errors?.['email']">
+
+Invalid email address
+
+</div>
+
+</div>
+
+<br>
+
+<div>
+
+<label>Course</label><br>
+
+<select
+name="courseId"
+required
+ngModel
+#courseCtrl="ngModel">
+
+<option value="">Select Course</option>
+<option value="1">Angular</option>
+<option value="2">React</option>
+<option value="3">NodeJS</option>
+<option value="4">ASP.NET Core</option>
+
+</select>
+
+<div
+class="error"
+*ngIf="courseCtrl.touched && courseCtrl.errors?.['required']">
+
+Please select a course
+
+</div>
+
+</div>
+
+<br>
+
+<div>
+
+<label>
+
+<input
+type="checkbox"
+name="agreeToTerms"
+required
+ngModel
+#termsCtrl="ngModel">
+
+I agree to Terms & Conditions
+
+</label>
+
+<div
+class="error"
+*ngIf="termsCtrl.touched && termsCtrl.errors?.['required']">
+
+Please accept the terms
+
+</div>
+
+</div>
+
+<br>
+
+<button
+type="submit"
+[disabled]="enrollForm.invalid">
+
+Submit
+
+</button>
+
+<button
+type="button"
+(click)="enrollForm.resetForm(); submitted=false">
+
+Reset
+
+</button>
+
+</form>
+
+<br>
+
+<div
+class="success"
+*ngIf="submitted">
+
+✅ Enrollment request submitted successfully!
+
+</div>

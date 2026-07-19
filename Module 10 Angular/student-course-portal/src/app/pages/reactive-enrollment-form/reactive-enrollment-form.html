@@ -1,0 +1,113 @@
+<h2>Reactive Enrollment Form</h2>
+
+<form
+[formGroup]="enrollForm"
+(ngSubmit)="onSubmit()">
+
+<div>
+
+<label>Name</label><br>
+
+<input
+type="text"
+formControlName="studentName">
+
+<div
+class="error"
+*ngIf="enrollForm.get('studentName')?.touched &&
+enrollForm.get('studentName')?.errors?.['required']">
+
+Name is required
+
+</div>
+
+<div
+class="error"
+*ngIf="enrollForm.get('studentName')?.errors?.['minlength']">
+
+Minimum 3 characters
+
+</div>
+
+</div>
+
+<br>
+
+<div>
+
+<label>Email</label><br>
+
+<input
+type="email"
+formControlName="studentEmail">
+
+</div>
+
+<br>
+
+<div>
+
+<label>Course</label><br>
+
+<select formControlName="courseId">
+
+<option value="">Select Course</option>
+<option value="1">Angular</option>
+<option value="2">React</option>
+<option value="3">NodeJS</option>
+<option value="4">ASP.NET Core</option>
+
+</select>
+
+</div>
+
+<br>
+
+<div>
+
+<label>Semester</label>
+
+<select formControlName="preferredSemester">
+
+<option>Odd</option>
+<option>Even</option>
+
+</select>
+
+</div>
+
+<br>
+
+<div>
+
+<label>
+
+<input
+type="checkbox"
+formControlName="agreeToTerms">
+
+Agree to Terms
+
+</label>
+
+</div>
+
+<br>
+
+<button
+type="submit"
+[disabled]="enrollForm.invalid">
+
+Submit
+
+</button>
+
+</form>
+
+<div
+class="success"
+*ngIf="submitted">
+
+Reactive Form Submitted Successfully!
+
+</div>

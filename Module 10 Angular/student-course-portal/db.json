@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Angular",
+      "code": "ANG101",
+      "credits": 4,
+      "gradeStatus": "Passed"
+    },
+    {
+      "id": 2,
+      "name": "React",
+      "code": "REA101",
+      "credits": 3,
+      "gradeStatus": "Pending"
+    },
+    {
+      "id": 3,
+      "name": "NodeJS",
+      "code": "NOD101",
+      "credits": 2,
+      "gradeStatus": "Passed"
+    },
+    {
+      "id": 4,
+      "name": "ASP.NET Core",
+      "code": "ASP101",
+      "credits": 4,
+      "gradeStatus": "Failed"
+    }
+  ],
+  "students": [],
+  "enrollments": []
+}

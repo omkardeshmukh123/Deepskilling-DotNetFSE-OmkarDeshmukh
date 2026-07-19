@@ -1,0 +1,32 @@
+<div class="card" appHighlight>
+
+  <h3>{{ course.name | uppercase }}</h3>
+
+  <p><b>Code:</b> {{ course.code }}</p>
+
+  <p><b>Credits:</b> {{ course.credits }}</p>
+
+  <p>
+    <b>Status:</b>
+
+    <span
+      [ngStyle]="{
+        color:
+          course.gradeStatus === 'Passed'
+            ? 'green'
+            : course.gradeStatus === 'Failed'
+            ? 'red'
+            : 'orange'
+      }">
+
+      {{ course.gradeStatus }}
+
+    </span>
+
+  </p>
+
+  <button (click)="onEnroll()">
+    Enroll
+  </button>
+
+</div>
