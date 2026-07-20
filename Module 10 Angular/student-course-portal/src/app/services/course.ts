@@ -1,6 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+
+import { Observable, throwError } from 'rxjs';
+import {
+  map,
+  catchError,
+  tap,
+  retry
+} from 'rxjs/operators';
 
 export interface Course {
   id: number;
@@ -20,11 +27,53 @@ export class CourseService {
   constructor(private http: HttpClient) {}
 
   getCourses(): Observable<Course[]> {
-    return this.http.get<Course[]>(this.apiUrl);
+
+    return this.http.get<Course[]>(this.apiUrl).pipe(
+
+      map(courses =>
+        courses.filter(course => course.credits > 0)
+      ),
+
+      tap(courses =>
+        console.log('Courses loaded:', courses.length)
+      ),
+
+      retry(2),
+
+      catchError(error => {
+
+        console.error(error);
+
+        return throwError(() =>
+          new Error('Failed to load courses. Please try again.')
+        );
+
+      })
+
+    );
+
   }
 
   getCourseById(id: number): Observable<Course> {
-    return this.http.get<Course>(`${this.apiUrl}/${id}`);
+
+    return this.http
+      .get<Course>(`${this.apiUrl}/${id}`)
+      .pipe(
+
+        retry(2),
+
+        catchError(error => {
+
+          console.error(error);
+
+          return throwError(() =>
+            new Error('Course not found.')
+          );
+
+        })
+
+      );
+
   }
 
   createCourse(course: Omit<Course, 'id'>): Observable<Course> {
@@ -32,11 +81,16 @@ export class CourseService {
   }
 
   updateCourse(course: Course): Observable<Course> {
-    return this.http.put<Course>(`${this.apiUrl}/${course.id}`, course);
+    return this.http.put<Course>(
+      `${this.apiUrl}/${course.id}`,
+      course
+    );
   }
 
   deleteCourse(id: number): Observable<void> {
-    return this.http.delete<void>(`${this.apiUrl}/${id}`);
+    return this.http.delete<void>(
+      `${this.apiUrl}/${id}`
+    );
   }
 
 }

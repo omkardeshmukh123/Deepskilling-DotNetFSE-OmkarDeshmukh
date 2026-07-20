@@ -1,16 +1,40 @@
 import { TestBed } from '@angular/core/testing';
+import { of } from 'rxjs';
 
-import { Enrollment } from './enrollment';
+import { EnrollmentService } from './enrollment';
+import { CourseService } from './course';
 
-describe('Enrollment', () => {
-  let service: Enrollment;
+describe('EnrollmentService', () => {
+
+  let service: EnrollmentService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(Enrollment);
+
+    TestBed.configureTestingModule({
+
+      providers: [
+
+        EnrollmentService,
+
+        {
+          provide: CourseService,
+          useValue: {
+            getCourseById: () => of(null)
+          }
+        }
+
+      ]
+
+    });
+
+    service = TestBed.inject(EnrollmentService);
+
   });
 
-  it('should be created', () => {
+  it('should create', () => {
+
     expect(service).toBeTruthy();
+
   });
+
 });

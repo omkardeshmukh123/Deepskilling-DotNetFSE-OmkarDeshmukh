@@ -1,0 +1,32 @@
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING (main)
+$ git branch
+* main
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING (main)
+$ git remote -v
+origin  https://github.com/omkardeshmukh123/Deepskilling-DotNetFSE-OmkarDeshmukh.git (fetch)
+origin  https://github.com/omkardeshmukh123/Deepskilling-DotNetFSE-OmkarDeshmukh.git (push)
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING (main)
+$ git pull origin main
+From https://github.com/omkardeshmukh123/Deepskilling-DotNetFSE-OmkarDeshmukh
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+D A T A@DESKTOP-2UPO9F5 MINGW64 ~/Desktop/Cognizant/DEEPSKILLING (main)
+$ git push origin main
+Everything up-to-date
+
+
+
+
+
+
+
+
+
+
+
+
+
+
